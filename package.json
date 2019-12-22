@@ -1,11 +1,34 @@
 {
   "name": "react-profghost-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
+  "description": "A react component library with animated components",
+  "author": {
+    "name": "Shashi Srinath",
+    "email": "atshashisrinath@gmail.com",
+    "url": "https://www.facebook.com/shashisrinath"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profghost/react-profghost-components.git"
+  },
+  "homepage": "https://github.com/profghost/react-profghost-components",
+  "bugs": {
+    "url": "https://github.com/profghost/react-profghost-components/issues"
+  },
+  "keywords": [
+    "react component",
+    "react",
+    "react component library",
+    "react animated components"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
@@ -35,6 +58,9 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
-    "@babel/preset-react": "^7.7.4"
+    "@babel/preset-react": "^7.7.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1"
   }
 }
