@@ -29,12 +29,6 @@
   color: #61dafb;
 }
 
-.btn {
-  background: maroon !important;
-  font-size: 24px;
-  font-family: Roboto, serif;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
