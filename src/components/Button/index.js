@@ -16,6 +16,7 @@ const Button = (props) => {
 
     const btnStyles = {
         padding: '10px 20px',
+        margin: '10px 20px',
         color: colors.color,
         border: 'none',
         outline: 'none',
@@ -23,8 +24,8 @@ const Button = (props) => {
     };
 
     const hoverAnimation = useSpring({
-        transform: hovered ? clicked ? 'scale(1.1)' : 'scale(1.25)' : 'scale(1)',
-        borderRadius: hovered ? clicked ? '10px' : '15px' : '5px',
+        transform: hovered ? clicked ? 'scale(1.1)' : 'scale(1.22)' : 'scale(1)',
+        borderRadius: hovered ? clicked ? '7px' : '10px' : '5px',
         boxShadow: hovered ? clicked ? `3px 3px 8px ${colors.boxShadow}` : `5px 5px 8px ${colors.boxShadow}` : `1px 1px 8px ${colors.boxShadow}`,
         background: hovered ? clicked ? colors.clickedBackground : colors.hoverBackground : colors.background,
     });
